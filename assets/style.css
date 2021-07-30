@@ -19,6 +19,11 @@ header {
     position: sticky;
     top: 0;
     z-index: 9999;
+    background-image: url(./images/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 50%;
 }
 
 header h1 {
@@ -53,17 +58,22 @@ header nav ul li {
     text-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
-header nav ul li a:hover {
-    background-color: slategray;
+header nav ul li {
     color: wheat;
-    border-radius: 15px;
     text-shadow: none;
+}
+
+header li:hover {
+    background-color: salmon;
+    border-radius: 15px;
 }
 
 section {
     padding: 100px 0 130px 0;
     display: block;
 }
+
+            /* HERO */
 
 .hero {
     background-image: url(./images/hero-image.jpg);
@@ -73,7 +83,20 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 50%;
+    width: 100%;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: center;
+    margin: 3.5%;
     color: wheat;
+    font-size: 32px;
+    line-height: 1.3;
+    margin-top: 24px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 .hero h2 {
@@ -82,13 +105,92 @@ section {
     padding-bottom: 15px;
 }
 
-.hero img{
+.logos{
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: column;
+    flex: 0 1 30;
     align-items: center;
-    padding: 10px;
-    flex-basis: 33;
+    padding: 0;
+    flex: 0 1 30vw;
+
 }
 
+.logos img {
+    width: 100%;
+    height: 70px;
+}
+
+.highlight {
+    color: salmon;
+
+        /* About Page */
+}
+
+.about-page {
+    background-color: black;
+    display: block;
+
+}
+
+.about-page h2 {
+    text-align: center;
+    font-size: 36px;
+    color: wheat;
+    padding: 45px;
+    display: block;
+    margin: 0 auto;
+}
+
+.border-bottom {
+    position: relative;
+    border-bottom: 3px solid salmon;
+    display: inline-block;
+}
+
+.about-headers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-header {
+    align-items: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-header p {
+    margin-top: 8px;
+}
+.about-headers ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.about-headers img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+
+.about-info {
+    display: flex;
+    
+}
+
+.about-info img {
+    height: 300px;
+  }
+
+  .self-description {
+
+  }
