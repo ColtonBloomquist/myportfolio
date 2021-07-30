@@ -184,13 +184,69 @@ section {
 
 .about-info {
     display: flex;
-    
+    justify-content: space-between;
+    padding: 200px;
+}
+
+.about-info p {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .about-info img {
-    height: 300px;
+    height: 500px;
+    margin: auto 0;
+    padding-right: 20px;
   }
 
-  .self-description {
+.self-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
+
+
+.portfolio-info {
+    background-color: black;
+}
+
+.portfolio-info h2 {
+    text-align: center;
+    font-size: 36px;
+    color: wheat;
+    padding: 45px;
+    display: block;
+    margin: 0 auto;
+}
+
+.projects-head {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px 30px 20px;
+}
+
+.projects-head a {
+    text-decoration: none;
+    font-size: 28px;
+    color: wheat;
+}
+
+
+
+
+
+
+  .projects-content img {
+      height: 600px;
+      padding-top: 20px;
+  }
+
+
+
+  .placeholder-img img {
+      height: 200px;
+      
   }
