@@ -234,19 +234,70 @@ section {
     color: wheat;
 }
 
-
-
-
-
-
-  .projects-content img {
+.projects-content img {
       height: 600px;
       padding-top: 20px;
   }
 
 
-
-  .placeholder-img img {
+.placeholder-img img {
       height: 200px;
-      
   }
+
+.contact {
+    padding: 25px;
+    color: wheat;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form button {
+    width: 30%;
+    border: none;
+    background: wheat;
+    color: salmon;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .contact-form, .contact-form textarea {
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+  }
+
+  .contact-header {
+      text-align: center;
+      padding: 25px;
+  }
+
+  #contact-name {
+      display: block;
+      padding: 4px 12px;
+      border-radius: 10px;
+  }
+
+  #contact-email {
+    display: block;
+    padding: 4px 12px;
+    border-radius: 10px;
+    
+}
+
+.contact-form button:hover {
+    background-color: salmon;
+  }
+
